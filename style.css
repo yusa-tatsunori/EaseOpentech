@@ -1,0 +1,271 @@
+@charset "UTF-8";
+
+body {
+  min-width: 1920px;
+}
+
+header {
+  background: linear-gradient(to right, rgba(237, 239, 241, 0.5), rgba(212, 245, 223, 0.5), rgba(118, 247, 161, 0.9)), url("background.png");
+  background-position: center;
+  background-size: cover;
+  padding: 25px 50px 10px;
+  min-width: 1920px;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header ul {
+  display: flex;
+  gap: 40px;
+  color: #999999;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo {
+  width: 400px;
+}
+
+.message {
+  font-size: 48px;
+  font-family: "HG正楷書体-PRO";
+  color: #ffffff;
+  margin: 50px 0;
+}
+
+.brand-wrap {
+  width: 1000px;
+  border: 3px solid #999999;
+  box-shadow: 1px 0 5px 1px #999;
+  margin-left: auto;
+  padding: 45px 18px 0;
+  margin-right: 150px;
+  box-sizing: border-box;
+  /* color: #ffffff; */
+}
+
+.brand-wrap h2 {
+  font-size: 48px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.brand-wrap p {
+  font-size: 24px;
+  letter-spacing: -0.05em;
+  margin-top: 60px;
+  line-height: 40px;
+}
+
+.brand-wrap button {
+  /* width: 100%; */
+  display: flex;
+  margin: 85px auto;
+}
+
+.brand-wrap img {
+  width: 300px;
+}
+
+/* メイン */
+main {
+  max-width: 1520px;
+  margin: 0 auto;
+}
+
+.product h3 {
+  font-size: 48px;
+  text-decoration: underline 2px solid;
+  text-underline-offset: 10px;
+  margin: 100px 0 50px 0;
+  text-align: center;
+
+}
+
+.product-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-item {
+  width: 480px;
+  height: 270px;
+  object-fit: cover;
+}
+
+
+.product-wrap .door p:first-of-type,
+.product-wrap .censor p:first-of-type,
+.product-wrap .feature p:first-of-type {
+  font-size: 24px;
+  margin: 10px 0 15px 0;
+  text-align: center;
+}
+
+.product-wrap .door p:nth-child(3),
+.product-wrap .censor p:nth-child(3),
+.product-wrap .feature p:nth-child(3) {
+  font-size: 18px;
+  line-height: 30px;
+  margin-left: 20px;
+}
+
+.product-wrap .door {
+  border: 2px solid #999999;
+  box-shadow: 1px 0 5px 1px #999;
+}
+
+.product-wrap .censor {
+  border: 2px solid #999999;
+  box-shadow: 1px 0 5px 1px #999;
+}
+
+.product-wrap .feature {
+  border: 2px solid #999999;
+  box-shadow: 1px 0 5px 1px #999;
+}
+
+.product-wrap button img {
+  width: 300px;
+  display: flex;
+  margin: 45px auto;
+  justify-content: center;
+}
+
+.product-wrap button {
+  width: 100%;
+}
+
+/* NEWS */
+.news h3 {
+  font-size: 48px;
+  text-decoration: underline 2px solid;
+  text-underline-offset: 10px;
+  margin: 100px 0 50px 0;
+  text-align: center;
+}
+
+.news-box {
+  border: 2px solid #999999;
+  box-shadow: 1px 0 5px 1px #999;
+}
+
+.news table td,
+th {
+  /* border: 1px solid #000000; */
+  padding: 20px 30px;
+}
+
+/* Contact */
+.contact h3 {
+  font-size: 48px;
+  text-decoration: underline 2px solid;
+  text-underline-offset: 10px;
+  margin: 100px 0 50px 0;
+  text-align: center;
+}
+
+.contact {
+  margin-bottom: 50px;
+}
+
+.contact table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 30px;
+}
+
+.contact p {
+  text-indent: -1em;
+  margin-top: 40px;
+  line-height: 1.6em;
+}
+
+.contact-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-font {
+  font-size: 18px;
+}
+
+.banner {
+  width: 400px;
+  margin-top: 20px;
+}
+
+.banner img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* 求人 */
+.recruit h3 {
+  font-size: 48px;
+  text-decoration: underline 2px solid;
+  text-underline-offset: 10px;
+  margin: 70px 0 50px 0;
+  text-align: center;
+}
+
+.recruit {
+  background-image: url("recruit_back.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+}
+
+.recruit-wrap {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.recruit-wrap img {
+  width: 480px;
+}
+
+.recruit-wrap p {
+  text-align: center;
+  font-weight: bold;
+  padding: 30px 0;
+}
+
+.recruit-box a {
+  display: block;
+  background-color: #ffffff;
+}
+
+.recruit table {
+  border-spacing: 0 20px;
+  border-collapse: separate;
+}
+
+/* フッター */
+footer ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+footer a {
+  font-size: 18px;
+  border-right: 1px solid #000000;
+  border-left: 1px solid #000000;
+  padding: 0 10px;
+}
+
+footer {
+  text-align: center;
+  font-size: small;
+  padding: 40px 0;
+  background-color: #999999;
+}
